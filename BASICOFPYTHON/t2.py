@@ -1,26 +1,15 @@
 from turtle import*
 
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
-forward(150)
-left(36)
+speed('slowest')
+#square
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
 
 
 mainloop()
-

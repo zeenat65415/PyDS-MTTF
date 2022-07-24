@@ -1,6 +1,6 @@
 from turtle import*
 
-speed(0)
+speed('slowest')
 forward(100)
 left(90)
 

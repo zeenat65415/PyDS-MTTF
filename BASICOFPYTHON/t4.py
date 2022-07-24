@@ -1,8 +1,28 @@
 from turtle import*
-i=5
-while True:
-    forward(i)
-    left(60)
-    i+=5
-    
-    
+
+speed('fastest')
+#decagon
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+forward(100)
+left(36)
+
+
+mainloop()
+
