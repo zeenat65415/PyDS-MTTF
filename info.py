@@ -16,7 +16,14 @@ print(type(animal))#dataype by default is string(to conver we do typecasting)
 age= int(age)#typecasting
 print(age,type(age))
 
-a=int('enter a number=>')
-b=int('enter a number=>')
 
-print(a+b)
+a=input('enter a number=>')
+b=input('enter a number=>')
+
+print(a+b)#2131
+print(type(a),type(b))#str
+a=int(a)#typecasting
+b=int(b)#typecasting
+print(a+b)#52
+print(type(a))
+print(type(b))
