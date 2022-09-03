@@ -5,20 +5,20 @@ z=x
 c=5
 d=10
 
-print(x is y) #true means sam ememory location(reference or instance),it is mostly used in datastructures. value is not same memory location is same
-print(x is c) 
-print(x is z)
-print(y is z)
-print(y is x)
-print(c is x)
-print(c is c)
-print(c is d)
-print(x is d)
+print(x is y) #True means same mememory location(reference or instance),it is mostly used in datastructures. value is not same memory location is same
+print(x is c) #False
+print(x is z)#True
+print(y is z)#True
+print(y is x)#True
+print(c is x)#False
+print(c is c)#True
+print(c is d)#False
+print(x is d)#True
 
-x=[3,4,5]
+x=[3,4,5]#it is a list here x can not be equal to y as there can be many different operations that can be performed on list x and y
 y=[3,4,5]
 z=x
 
-print(x is y)#false
-print(x is z)#true
-print(z is y)#false
+print(x is y)#False
+print(x is z)#True
+print(z is y)#False
