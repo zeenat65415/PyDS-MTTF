@@ -9,7 +9,7 @@ print(type(name))
 print(type(college))
 print(type(city))
 print(type(age))
-print(type(animal))#dataype by default is string(to conver we do typecasting)
+print(type(animal))#dataype by default is string(to convert we do typecasting)
 #we use various typecasting fn
 #int(),str(),float(),bool(),list(),tuple(),set(),dict()
 
