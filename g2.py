@@ -5,7 +5,7 @@ HEIGHT = 400
 WIDTH = 800
 c = Actor('chick',(100,100))
 w = Actor('walrus',(500,300))
-cookie = Actor('cookie',(randint(100,700),randint(100,300)))
+cookie = Actor('cookie3',(randint(100,700),randint(100,300)))
 score = 0#variable (global)
 speed = 5#variable(global)
 
