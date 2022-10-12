@@ -1,3 +1,4 @@
+
 import pgzrun
 from random import randint
 
@@ -5,9 +6,9 @@ HEIGHT = 400
 WIDTH = 800
 c = Actor('chick',(100,100))
 w = Actor('walrus',(500,300))
-cookie = Actor('cookie3',(randint(100,700),randint(100,300)))
+cookie = Actor('cookie',(randint(100,700),randint(100,300)))
 score = 0#variable (global)
-speed = 5#variable(global)
+speed = 5#variable(global), global variable can be used in function bit cannot be changed.else woll crash and"unbound local error" occur.
 
 def draw():
     screen.blit('bg', pos=(0,0))

@@ -10,6 +10,7 @@
  ## program done in "finalsalary(condition).py" ,"finalsalary(condition1).py"file.
 
 
+
 16 september 2022
 ### Wap to create a numerical list of 10 values,taken from the user and then display
 => sum
@@ -18,9 +19,10 @@
 => mode
 ## program done in taskx.py
 
+
 19 september 2022
 # wap to create a list of 5 names taken from user and then display each name in reverse
-# wap to print a fibonacci series using the concept of list(0,1,1,2,3,5,8,11...)
+# wap to print a fibonacci series using the concept of list(0,1,1,2,3,5,8,13...)
 # wap to generate a new list that contains squares of each numbers from existing list
 ex x=[2,3,4,5] => [4,9,16,25]
 # wap to generate a new list from an existing list of numbers that contains only odd numbers

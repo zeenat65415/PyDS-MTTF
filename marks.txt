@@ -1,0 +1,12 @@
+rajesh:200
+brjesh:120
+raj:130
+ajay:150
+suraj:90
+chand:120
+rajesh:200
+brjesh:120
+raj:130
+ajay:150
+suraj:90
+chand:120

@@ -1,3 +1,5 @@
+#list are mutable,we can change.
+
 movies=['Sholay','Baghban','DDLJ',
 'Ironman','RRR','Inception','Spiderman',
 'Kung Fu Panda','Suryavansham','Batman']

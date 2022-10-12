@@ -1,6 +1,3 @@
-# from importlib.resources import path
-# from turtle import up
-
 #utility functions: find,count,split,replace,join
 msg="we will be seeing the horizon"
 

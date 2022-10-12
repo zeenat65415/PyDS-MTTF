@@ -10,7 +10,6 @@
 #         break
 #     data += line + '\n'
 # print(data)  
-
 print('\\n')
 print(r'\n')
 

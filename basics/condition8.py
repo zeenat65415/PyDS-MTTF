@@ -1,5 +1,6 @@
 num=int(input("Enter a number:"))
 
+
 match num:
     case 1:
        print("Sunday")
