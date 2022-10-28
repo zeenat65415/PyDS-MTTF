@@ -1,9 +1,11 @@
 class Calculator:
+
 # constructor
   def _init_(self,x,y):
-    self.x=x
-    self,y=y
-#methods which are recognized by objects are called as instance method.only instance method can use instance attribute.
+    self.x= x
+    self.y= y
+
+# instance method-methods which are recognized by objects are called as instance method.only instance method can use instance attribute.
   def add(self):
     return self.x + self.y
 
