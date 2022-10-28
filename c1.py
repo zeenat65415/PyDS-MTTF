@@ -7,6 +7,7 @@ class Dog:#Dog is a class
     breed="Labrador"
     age=3
     name="Tommy"
+    
 #object instantiation
 dog1=Dog()
 dog1.name="Sheru"
