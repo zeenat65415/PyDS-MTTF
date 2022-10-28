@@ -1,7 +1,7 @@
 from c3 import Calculator
 from math import log
 
-#syntax for inhritance
+#syntax for inhritence-inheritence to use propertirs of another class
 #clas Child(Parent)
 #or
 #class Subclass(Superclass)

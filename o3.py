@@ -1,4 +1,4 @@
-from c3 import Calculator
+from c3 import Calculator#c3.py
 
 task1 = Calculator(10, 20)
 print(task1.add())

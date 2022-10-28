@@ -5,7 +5,7 @@ class Calculator:
     self.x= x
     self.y= y
 
-# instance method-methods which are recognized by objects are called as instance method.only instance method can use instance attribute.
+# instance method-methods which are recognized by objects are called as instance method.only instance method can use instance attribute
   def add(self):
     return self.x + self.y
 

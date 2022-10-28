@@ -15,7 +15,7 @@ dog1.age=5
 dog1.breed="German Shepherd"
 
 dog2=Dog()
-dog2.name="Rex"
+dog2.name="Rexa"
 dog2.age=2
 dog2.breed="Golden Retriever"
 
