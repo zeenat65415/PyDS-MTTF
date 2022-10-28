@@ -1,15 +1,15 @@
-import os
 import requests
-import datetime
-import pandas as pd
 from bs4 import BeautifulSoup
+import os
+import pandas as pd
+import datetime
 
 def get_soup(url):
     r = requests.get(url)
     if r.status_code == 200:
         return BeautifulSoup(r.text,"html5lib")
     return None    
-    _
+    
 def get_products(soup):
     target = soup.find("div" , class_ ="_1YokD2 _3Mn1Gg")
     if target is not None:
@@ -41,7 +41,7 @@ def main(query="tv"):
     pos = 1
     all_products = []
     while True:
-        url = f"{base_url}?q={query}&page={pos}"
+        url = f"{base_url}?q={query}&page = {pos}"
         print(url)
         soup = get_soup(url)
         if soup is None:
@@ -59,7 +59,7 @@ def main(query="tv"):
         pd.DataFrame(all_products).to_csv(f"flipkart_{query}_{time}.csv", index = False)
 
 if __name__== "_main_":
-    main("mobiles")          
+    main("tv")          
 
 
          
