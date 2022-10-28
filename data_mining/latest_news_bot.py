@@ -1,8 +1,8 @@
-import os
 import requests
-import datetime
-import pandas as pd
 from bs4 import BeautifulSoup
+import os
+import pandas as pd
+import datetime
 
 def get_soup(url):
     r = requests.get(url)
@@ -46,9 +46,10 @@ def main(filename="latest_news.csv"):
                 all_headlines.extend(headlines)
             pos += 1
     #save
-    time = datetime.datetime.now().strftime("%Y_%m_%d_%H")
-    filename=f"{time}_{filename}"
-    pd.DataFrame(all_headlines).to_csv(filename, index = False)        
+    if len(all_headlines)>0:
+      time = datetime.datetime.now().strftime("%Y_%m_%d_%H")
+      filename=f"{time}_{filename}"
+      pd.DataFrame(all_headlines).to_csv(filename, index = False)        
         
 
 
