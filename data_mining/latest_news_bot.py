@@ -36,7 +36,7 @@ def main(filename="latest_news.csv"):
     all_headlines = []
     while True:
         url =f"{base_url}/page-{pos}"
-        print("➡",url)
+        print("➡️",url)
         soup = get_soup(url)
         if soup is None:
             break
@@ -53,5 +53,5 @@ def main(filename="latest_news.csv"):
         
 
 
-if __name__ == "_main_" :
+if __name__ == "__main__" :
     main()               
