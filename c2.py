@@ -1,6 +1,6 @@
 class Cat:
     #constructor 
-    def _init_(self, name, age, breed):
+    def __init__(self, name, age, breed):
         #self refers to the class itself .it is a keyword like this in java. _init_ is a constructor.In java constructor name is same as class name.
         #syntax for instance_variable:
         #self.<attribute> = <parameter>

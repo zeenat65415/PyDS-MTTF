@@ -7,9 +7,9 @@ HEIGHT = 400
 # all the class logic
 class Player(Actor):
     #override the default constructor
-    def _init_(self,image,speed=5):
+    def __init__(self,image,speed=5):
         pos = ri(0,WIDTH), ri(0,HEIGHT) # generate a random x,y coordinate
-        super()._init_(image,pos) # call the random class constructor and pass image and pos
+        super().__init__(image,pos) # call the random class constructor and pass image and pos
         self.speed = speed # add a new instance variable
 
     def move(self):
